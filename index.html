@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- FIM font Google-->
+    <title>Calculador de gorjetas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.pngi" type="image/x-icon">
+</head>
+
+<body>
+    <h1 class="logo"><img src="./images/logo.svg" alt="logo"></h1>
+
+    <div class="container">
+
+        <div class="box1">
+
+            <div class="input1">
+                <label for="valor" class="titulo-valor">Valor:</label>
+                <input class="input-txt input-txtD  " type="text" name="valor" class="valor" autocomplete="off">
+            </div>
+
+
+            <h2 class="text-tipo">tipo de %</h2>
+            <div class="porcentagens">
+
+                <div class="column">
+                    <button class="item1 btn-porcentagem">5%</button>
+                    <button class="item3 btn-porcentagem">10%</button>
+                    <button class="item5 btn-porcentagem">15%</button>
+                </div>
+
+                <div class="column columnA">
+                    <button class="item2 btn-porcentagem">25%</button>
+                    <button class="item4 btn-porcentagem">50%</button>
+                    <input class="item6 input-porcentagem" type="text" placeholder="custom" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="input2">
+                <label for="Quantidade-pessoas" class="label-quantidade">Quantidade de pessoas</label>
+                <input class="input-txt input-txtP" type="text" name="valor" class="Quantidade-pessoas" autocomplete="off">
+            </div>
+
+        </div>
+
+        <div class="box2">
+            <div class="box-interna">
+                <div class="ordem">
+                    <div class="colunas">
+                        <h2 class="valor-da-gorjeta">Gorjeta</h2>
+                        <p class="pessoas">/ pessoas</p>
+                    </div>
+                    <h2 class="valor-gorjeta-number">$0.00</h2>
+                </div>
+
+                <div class="ordem">
+                    <div class="colunas">
+                        <h2 class="total">Total </h2>
+                        <p class="pessoas">/ pessoas</p>
+                    </div>
+                    <h2 class="total-number">$0.00</h2>
+                </div>
+
+                <div class="btn-reset">
+                    <button class="reset">RESET</button>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
