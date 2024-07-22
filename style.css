@@ -257,7 +257,7 @@ input:focus {
 
 
 
-@media (min-width: 1600px) {
+@media (min-width: 900px) {
 
     .logo {
         display: flex;
@@ -306,11 +306,6 @@ input:focus {
 .titulo-valor { 
     margin-bottom: 0.5em;
 }
-
-
-
-
-
     .box2 {
         background: var(--card2);
         width: 500px ;
