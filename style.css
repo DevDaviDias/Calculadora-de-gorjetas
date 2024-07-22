@@ -6,6 +6,7 @@
     --cor-fonte: rgb(118, 137, 139);
     --cor-hover-btn: #26C2AD;
     --cor-borda: rgb(107, 185, 175);
+    --cor-span: rgb(225, 53, 53);
 
 }
 
@@ -167,11 +168,26 @@ body {
     height: 40px;
 }
 
+.text-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-negative{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--cor-span);
+    margin: 2em 0 1em 0;
+    display: none;
+    
+    
+}
+
 input:focus {
     border: 2px solid var(--cor-borda) !important;
     outline: none !important;
-    -webkit-border: 1px solid var(--cor-borda) !important;
-    -moz-border: 1px solid var(--cor-borda) !important; 
+    
 }
 /*box2*/
 
@@ -238,6 +254,8 @@ input:focus {
     font-size: 35px;
 
 }
+
+
 
 @media (min-width: 1600px) {
 
@@ -319,5 +337,14 @@ input:focus {
     .column{
         display: flex;
         flex-direction: row;
+    }
+
+    .text-negative{
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--cor-span);
+        margin:  0;
+        
+        
     }
 }

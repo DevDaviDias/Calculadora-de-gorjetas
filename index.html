@@ -24,7 +24,7 @@
 
             <div class="input1">
                 <label for="valor" class="titulo-valor">Valor:</label>
-                <input class="input-txt input-txtD  " type="text" name="valor" class="valor" autocomplete="off">
+                <input class="input-txt input-txtD  " type="text" name="valor" id="valor" class="valor" autocomplete="off">
             </div>
 
 
@@ -32,22 +32,26 @@
             <div class="porcentagens">
 
                 <div class="column">
-                    <button class="item1 btn-porcentagem espace">5%</button>
-                    <button class="item3 btn-porcentagem espace ">10%</button>
-                    <button class="item5 btn-porcentagem">15%</button>
+                    <button class="item1 btn-porcentagem espace" value="5">5%</button>
+                    <button class="item3 btn-porcentagem espace " value="10 ">10%</button>
+                    <button class="item5 btn-porcentagem" value="15">15%</button>
                 </div>
 
                 <div class="column columnA">
-                    <button class="item2 btn-porcentagem espace">25%</button>
-                    <button class="item4 btn-porcentagem espace">50%</button>
-                    <input class="item6 input-porcentagem" type="text" placeholder="custom" autocomplete="off">
+                    <button class="item2 btn-porcentagem espace" value="25">25%</button>
+                    <button class="item4 btn-porcentagem espace" value="50">50%</button>
+                    <input class="item6 input-porcentagem" id="custom-tip" type="text" placeholder="custom" autocomplete="off">
                 </div>
             </div>
 
             <div class="input2">
-                <label for="Quantidade-pessoas" class="label-quantidade">Quantidade de pessoas</label>
-                <input class="input-txt input-txtP" type="text" name="valor" class="Quantidade-pessoas" autocomplete="off">
+                <div class="text-flex">
+                    <label for="Quantidade-pessoas" class="label-quantidade">Número de pessoas:</label>
+                    <span class="text-negative" id="error-message">Não pode ser zero</span>
+                </div>
+                <input class="input-txt input-txtP" type="text" name="valor" id="Quantidade-pessoas" autocomplete="off">
             </div>
+            
 
         </div>
 
@@ -85,6 +89,8 @@
 
 
     </div>
+
+    <script src="app.js"></script>
 
 </body>
 
