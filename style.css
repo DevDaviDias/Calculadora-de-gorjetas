@@ -283,6 +283,7 @@ input:focus {
         height: 50px;
         justify-content: space-around;
         margin-top: 0.5em;
+        box-sizing: border-box;
     
     }
 
