@@ -170,27 +170,28 @@ body {
     height: 40px;
 }
 
-.text-flex{
+.text-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.text-negative{
+.text-negative {
     font-weight: 600;
     font-size: 14px;
     color: var(--cor-span);
     margin: 2em 0 1em 0;
     display: none;
-    
-    
+
+
 }
 
 input:focus {
     border: 2px solid var(--cor-borda) !important;
     outline: none !important;
-    
+
 }
+
 /*box2*/
 
 .box2 {
@@ -259,61 +260,64 @@ input:focus {
 
 
 
-@media (min-width: 1600px) {
+@media (min-width: 900px) {
 
     .logo {
         display: flex;
         margin: 3em 0 2em 0;
         justify-content: center;
-    
+
     }
 
     .container {
-     margin:  0 30em 0 30em;
-     height: 450px;
-     border-radius: 20px;
-     display: flex;
-     flex-direction: row;
-        
-        
+        margin: 0 30em 0 30em;
+        height: 450px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+
+
     }
 
 
     .btn-porcentagem {
-        
+
         width: 120px;
         height: 50px;
         justify-content: space-around;
         margin-top: 0.5em;
-    
+
     }
 
     .columnA {
         margin-left: 0;
     }
-    .espace{ 
+
+    .espace {
         margin-right: 1em;
-}
+    }
 
-.input-porcentagem {
-    width: 120px;
-    height: 50px;
-    margin-top: 0.5em;
-}
+    .input-porcentagem {
+        width: 120px;
+        height: 50px;
+        margin-top: 0.5em;
+    }
 
-.label-quantidade {
-    margin: 1em 0 1em 0;
-}
+    .label-quantidade {
+        margin: 1em 0 1em 0;
+    }
 
-.titulo-valor { 
-    margin-bottom: 0.5em;
-}
+    .titulo-valor {
+        margin-bottom: 0.5em;
+    }
+
     .box2 {
         background: var(--card2);
-        width: 500px ;
+        width: 500px;
         margin: 2em 3em 2em 0;
         border-radius: 10px;
     }
+
     .ordem {
         display: flex;
         justify-content: space-between;
@@ -323,25 +327,27 @@ input:focus {
     }
 
     .reset {
-       margin-top: 4em;
-    
-    
+        margin-top: 4em;
+
+
     }
-    .porcentagens{
+
+    .porcentagens {
         display: flex;
         flex-direction: column;
     }
-    .column{
+
+    .column {
         display: flex;
         flex-direction: row;
     }
 
-    .text-negative{
+    .text-negative {
         font-weight: 600;
         font-size: 14px;
         color: var(--cor-span);
-        margin:  0;
-        
-        
+        margin: 0;
+
+
     }
 }
